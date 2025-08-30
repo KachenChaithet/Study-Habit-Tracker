@@ -1,12 +1,18 @@
-# React + Vite
+# Study Habit Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+แอปพลิเคชันสำหรับติดตามพฤติกรรมการเรียนรู้ จัดการตารางเวลา และสร้างนิสัยการเรียนที่ดีขึ้น  
+ผู้ใช้สามารถบันทึกกิจกรรมการเรียน ตั้งการแจ้งเตือน และดูสถิติการเรียนย้อนหลังได้
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🔐 ระบบ Authentication (Login / Register)
+- ⏰ ระบบตั้งเวลาแจ้งเตือนการเรียน
+- 📝 บันทึกกิจกรรมการเรียนแต่ละวัน
+- 📊 Dashboard แสดงสถิติและกราฟพัฒนาการ
+- 🔔 การแจ้งเตือน (Notification)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- **Frontend**: React.js + TailwindCSS
+- **Backend**: Node.js + Express (Token & Auth)
+- **Database**: Neon (PostgreSQL)
+- **Cloud Service**: Firebase (Messaging)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
