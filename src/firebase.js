@@ -20,7 +20,7 @@ export const generteTOken = async () => {
 
     if (permission === 'granted') {
         const token = await getToken(messaging, {
-            vapidKey: "BN4RoOVycvEfegPCBzg80maL2GexkL_ZBBT9DeQNcW1AdgsrJ3eZpauGjlnrcLB6p83RXfkrdu1zgpOaBBWweJI",
+            vapidKey: import.meta.env.VITE_FIREBASE_VAPID_KEY,
 
         })
         return token
